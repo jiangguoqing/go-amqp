@@ -13,7 +13,7 @@ jobs:
     steps:
       - task: GoTool@0
         inputs:
-          version: '$(go.version)'
+          version: '1.19'
         displayName: "Select Go Version"
 
       - script: |
