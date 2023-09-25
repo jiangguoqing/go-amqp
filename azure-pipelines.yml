@@ -8,8 +8,7 @@ jobs:
 
 
     pool:
-      name: '$(pool.name)'
-      vmImage: '$(vm.image)'
+      vmImage: ubuntu-latest
 
     steps:
       - task: GoTool@0
